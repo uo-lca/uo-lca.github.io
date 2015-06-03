@@ -1,0 +1,173 @@
+/* app css stylesheet */
+.chart-title {
+    font-weight: bold;
+}
+
+.d3-tip {
+    line-height: 1;
+    font-size: 12px;
+    padding: 12px;
+    width: 100px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    pointer-events: none;
+}
+/* Northward tooltips */
+.d3-tip.n:after {
+    content: "\25BC";
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+    text-align: center;
+}
+
+.sankey-container {
+    height: 550px;
+}
+
+.fragment-link {
+    cursor: pointer;
+}
+
+.flow-container {
+    font-size: 0.8em;
+    line-height: 1;
+}
+
+.flow-container table {
+    border-style: none;
+}
+
+.flow-container th {
+    background-color: #eee;
+}
+
+.lcia-bar-container {
+    font-size: 0.8em;
+    height: 100%;
+}
+
+.header text {
+    font-weight: bold;
+}
+
+.axis text {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.starting-line {
+    fill: none;
+    stroke: #000;
+}
+
+waterfall-chart .y.axis path {
+    display: none;
+    /*stroke-opacity: 0.2;*/
+}
+
+.top.axis path {
+    display: none;
+}
+
+.gridStyle {
+    /*border: 1px solid rgb(212,212,212);*/
+    width: 100%;
+    font-size: 12px;
+}
+
+.cellIcon {
+    text-align: center;
+    line-height: 30px;
+}
+
+.float-block {
+    display: inline-block;
+    margin: 1em;
+}
+
+/* Override multiselect styles */
+/* Make it look like html select */
+.multiSelect > button {
+    padding: 1px 1px 1px 1px;
+    min-height : 20px !important;
+    border-radius: 0px;
+    color: #333;
+    background-image: none;
+}
+
+/* labels on the button */
+.multiSelect .buttonLabel {
+    padding: 0px 0px 0px 0px;
+}
+
+/* downward pointing arrow */
+.multiSelect .caret {
+    margin: 0px 6px 1px 12px  !important;
+}
+
+
+
+lcia-bar-chart {
+     width: 100%;
+     height: 100%;
+     display: block;
+}
+
+sankey-diagram text {
+    font: 10px sans-serif;
+}
+
+/*sankey-diagram text {*/
+    /*pointer-events: none;*/
+    /*text-shadow: 0 1px 0 #fff;*/
+/*}*/
+
+sankey-diagram .link path {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .2;
+}
+
+sankey-diagram .link:hover {
+    stroke-opacity: .5;
+}
+
+sankey-diagram .node rect {
+    /*cursor: move;*/
+    shape-rendering: crispEdges;
+    opacity: 1;
+    stroke-width:2;
+}
+
+sankey-diagram {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+waterfall-chart {
+     width: 100%;
+     height: 100%;
+     display: block;
+}
