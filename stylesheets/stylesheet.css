@@ -244,7 +244,9 @@ a {
   .site-footer {
     font-size: 0.9rem; } }
 
-.alert {
+.down-for-maintenance {
  color: #880011;
+ display: none;
  font-size: 1.2rem; }
+
 
