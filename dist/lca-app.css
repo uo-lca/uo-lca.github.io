@@ -38,6 +38,10 @@
     height: 550px;
 }
 
+#sankeyLegend {
+    height: 100px;
+}
+
 .fragment-link {
     cursor: pointer;
 }
@@ -105,6 +109,25 @@ waterfall-chart .y.axis path {
     margin: 1em;
 }
 
+info .alert-info {
+    background-color: #fff;
+    border-color: #fff;
+    padding: 5px;
+    margin: 0px;
+}
+
+info .glyphicon {
+    padding-right: 1em;
+}
+
+.scenario-description {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: inherit;
+    padding: inherit;
+    border: inherit;
+}
+
 /* Override multiselect styles */
 /* Make it look like html select */
 .multiSelect > button {
@@ -163,6 +186,10 @@ sankey-diagram {
     width: 100%;
     height: 100%;
     display: block;
+}
+
+.legend-row text {
+    font: 10px sans-serif;
 }
 
 
