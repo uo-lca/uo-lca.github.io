@@ -39,8 +39,14 @@
                 <li ui-sref-active="active"><a ui-sref="home.fragment-lcia">Fragment LCIA</a></li>
                 <li ui-sref-active="active"><a ui-sref="home.process-lcia">Process LCIA</a></li>
                 <li ui-sref-active="active"><a ui-sref="home.fragment-sankey">Fragment Flows</a></li>
+                <li ui-sref-active="active"><a ui-sref="home.composition-profiles">Composition Profiles</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+                <li>
+                <button title="Toggle Information Messages" type="button" ng-class="{btn:true, 'navbar-btn':true, 'btn-primary':displayInfo, active:displayInfo}" data-toggle="button" ng-click="displayInfo=!displayInfo" aria-pressed="{{displayInfo}}">
+                    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                </button>
+                </li>
                 <li><a href="{{helpPage}}" target="_blank">Help</a></li>
             </ul>
         </div>
