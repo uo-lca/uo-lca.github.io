@@ -148,6 +148,10 @@ info .glyphicon {
     margin: 0px 6px 1px 12px  !important;
 }
 
+.panel-title > a {
+    color: #337ab7;
+}
+
 
 
 lcia-bar-chart {
