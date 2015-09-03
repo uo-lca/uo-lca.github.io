@@ -84,7 +84,7 @@
     stroke: #000;
 }
 
-waterfall-chart .y.axis path {
+.lcia-bar-container .y.axis path {
     display: none;
     /*stroke-opacity: 0.2;*/
 }
@@ -97,6 +97,14 @@ waterfall-chart .y.axis path {
     /*border: 1px solid rgb(212,212,212);*/
     width: 100%;
     font-size: 12px;
+}
+
+.gridStyle .has-success {
+    background-color: #dff0d8;
+}
+
+.gridStyle .has-error {
+    background-color: #f2dede;
 }
 
 .cellIcon {
@@ -126,6 +134,8 @@ info .glyphicon {
     background-color: inherit;
     padding: inherit;
     border: inherit;
+    word-wrap: normal;
+    white-space: pre-wrap;
 }
 
 /* Override multiselect styles */
@@ -156,6 +166,40 @@ info .glyphicon {
    padding: 5px;
    margin: 0px;
 }
+
+.plot-container {
+    width : 100%
+}
+
+/*.pad-bottom {*/
+    /*padding-bottom: 1em;*/
+/*}*/
+
+#component-select select {
+    width : 15em;
+}
+
+#activity-level {
+    width : 5em;
+}
+
+#chart-label {
+    width : 7em;
+}
+
+/* Disable ng-grid scroll bars */
+
+.ngViewport{
+    height:auto !important;
+}
+.ngCanvas, .ngViewport, .ngRow, .ngFooterPanel, .ngTopPanel   {
+    width: 100% !important;
+}
+.ngRow {
+    border-bottom:none !important;
+}
+
+
 
 lcia-bar-chart {
      width: 100%;
