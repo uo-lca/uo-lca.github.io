@@ -187,6 +187,10 @@ info .glyphicon {
     width : 7em;
 }
 
+#export-lcia-results {
+    margin-bottom: 1em;
+}
+
 .glyphicon-info-color {
     color: #31b0d5;
 }
