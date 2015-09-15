@@ -2156,7 +2156,7 @@ angular.module( 'isteven-multi-select', ['ng'] ).directive( 'istevenMultiSelect'
 }]); 
 
 /*
- AngularJS v1.4.3
+ AngularJS v1.4.5
  (c) 2010-2015 Google, Inc. http://angularjs.org
  License: MIT
 */
