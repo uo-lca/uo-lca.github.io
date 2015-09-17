@@ -249,4 +249,12 @@ a {
  display: none;
  font-size: 1.2rem; }
 
+p.logo a {
+ margin: 2rem;
+}
 
+p.logo a img {
+ max-width: 180px;
+ height: auto;
+ width: auto;
+}
